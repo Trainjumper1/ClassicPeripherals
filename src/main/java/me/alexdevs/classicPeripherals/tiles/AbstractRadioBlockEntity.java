@@ -170,6 +170,6 @@ public abstract class AbstractRadioBlockEntity extends BlockEntity {
             return range;
         }
 
-        return Math.max(8, (int) (96 * (1 - Math.pow(Math.E, -0.05 * y)) / 100d * range));
+        return Math.max(8, (int) (96 * (1 - Math.pow(Math.E, -0.05 * y)) / 95.205 * range));
     }
 }
